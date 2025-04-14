@@ -54,6 +54,7 @@ The project is designed to:
 
 ## 📁 Directory Structure
 
+```plaintext
 /cache-simulator/
 │
 ├── lcs_simulator.cpp        # Core logic for LCS algorithm
@@ -62,7 +63,7 @@ The project is designed to:
 ├── results/                 # CSV/graph output for evaluation
 ├── README.md                # This file
 ├── report.pdf               # 📄 Full Research Paper
-
+```
 ---
 
 ## 📥 Getting Started
