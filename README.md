@@ -105,7 +105,7 @@ g++ lcs_simulator.cpp -o cache_simulator
 - LRU: 82%
 - FIFO: 79%
 
-> 📌 Detailed graphs are included in the `report.pdf` and `/results/` folder.
+> 📌 Detailed graphs are included in the `annotated-report.pdf` 
 
 ---
 
