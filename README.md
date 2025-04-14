@@ -55,14 +55,21 @@ The project is designed to:
 ## 📁 Directory Structure
 
 ```plaintext
-/cache-simulator/
-│
-├── lcs_simulator.cpp        # Core logic for LCS algorithm
-├── simulator.h              # Header definitions
-├── trace_files/             # Sample SPEC-2000 trace inputs
-├── results/                 # CSV/graph output for evaluation
-├── README.md                # This file
-├── report.pdf               # 📄 Full Research Paper
+AdaptiveCacheDesignSimulator/
+├── Globals.h                  # Global configurations and constants
+├── Makefile                   # Compilation script
+├── README.md                  # Project documentation
+├── SimulatorCacheDesign.cpp  # Main implementation file
+├── SimulatorCacheDesign.o    # Object file (compiled)
+├── Structs.h                  # Data structures used in simulation
+├── checkDiffChecker.sh       # Shell script for result verification
+├── compress_trace.txt        # SPEC-2000 trace file: Compress
+├── gcc_trace.txt             # SPEC-2000 trace file: GCC
+├── go_trace.txt              # SPEC-2000 trace file: Go
+├── perl_trace.txt            # SPEC-2000 trace file: Perl
+├── sim_cache                 # Compiled executable (simulator)
+├── vortex_trace.txt          # SPEC-2000 trace file: Vortex
+├── annotated.report         # View the report
 ```
 ---
 
